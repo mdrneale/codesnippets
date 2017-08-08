@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tsf version="2.0" xsi:noNamespaceSchemaLocation="tsf_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<asset>
+		<unit meter="0.00999999978"/>
+		<up_axis>Y</up_axis>
+	</asset>
+	<library_materials>
+		<material id="lambert1">
+			<type>lambert</type>
+			<colour id="colour">0.5 0.5 0.5</colour>
+			<colour id="incandescense">0 0 0</colour>
+			<float id="diffuse">0.800000012</float>
+			<float id="glow">0</float>
+			<colour id="ambient">0 0 0</colour>
+		</material>
+		<material id="lion_mat">
+			<type>lambert</type>
+			<colour id="colour">0.484462 0.5 0.335</colour>
+			<colour id="incandescense">0 0 0</colour>
+			<float id="diffuse">0.800000012</float>
+			<float id="glow">0</float>
+			<colour id="ambient">0 0 0</colour>
+		</material>
+		<material id="roof_mat">
+			<type>phong</type>
+			<colour id="colour">0.5 0.0635 0.130212</colour>
+			<float id="cosPower">20</float>
+			<colour id="incandescense">0 0 0</colour>
+			<float id="diffuse">0.800000012</float>
+			<colour id="specularColour">0.5 0.5 0.5</colour>
+			<float id="glow">0</float>
+			<colour id="ambient">0 0 0</colour>
+		</material>
+		<material id="leaf_mat">
+			<type>phong</type>
+			<colour id="colour">0.037695 0.359 0.0386589</colour>
+			<float id="cosPower">20</float>
+			<colour id="incandescense">0 0 0</colour>
+			<float id="diffuse">0.800000012</float>
+			<colour id="specularColour">0.5 0.5 0.5</colour>
+			<float id="glow">0</float>
+			<colour id="ambient">0 0 0</colour>
+		</material>
+		<material id="metal_mat">
+			<type>phong</type>
+			<colour id="colour">0.706 0.435457 0.094604</colour>
+			<float id="cosPower">20</float>
+			<colour id="incandescense">0 0 0</colour>
+			<float id="diffuse">0.800000012</float>
+			<colour id="specularColour">0.5 0.5 0.5</colour>
+			<float id="glow">0</float>
+			<colour id="ambient">0 0 0</colour>
+		</material>
+		<material id="fabric_mat">
+			<type>lambert</type>
+			<colour id="colour">0.5 0.0965 0.156756</colour>
+			<colour id="incandescense">0 0 0</colour>
+			<float id="diffuse">0.800000012</float>
+			<float id="glow">0</float>
+			<colour id="ambient">0 0 0</colour>
+		</material>
+		<material id="vase_mat">
+			<type>lambert</type>
+			<colour id="colour">0.315 0.315 0.315</colour>
+			<colour id="incandescense">0 0 0</colour>
+			<float id="diffuse">0.800000012</float>
+			<float id="glow">0</float>
+			<colour id="ambient">0 0 0</colour>
+		</material>
+		<material id="rope_mat">
+			<type>lambert</type>
+			<colour id="colour">0.395 0.271114 0.110205</colour>
+			<colour id="incandescense">0 0 0</colour>
+			<float id="diffuse">0.800000012</float>
+			<float id="glow">0</float>
+			<colour id="ambient">0 0 0</colour>
+		</material>
+		<material id="default">
+			<type>default</type>
+		</material>
+		<material id="floor_mat">
+			<type>phong</type>
+			<colour id="colour">0.3665 0.394824 0.5</colour>
+			<float id="cosPower">20</float>
+			<colour id="incandescense">0 0 0</colour>
+			<float id="diffuse">0.800000012</float>
+			<colour id="specularColour">0.5 0.5 0.5</colour>
+			<float id="glow">0</float>
+			<colour id="ambient">0 0 0</colour>
+		</material>
+		<material id="brick_mat">
+			<type>lambert</type>
+			<colour id="colour">0.5 0.5 0.5</colour>
+			<colour id="incandescense">0 0 0</colour>
+			<float id="diffuse">0.800000012</float>
+			<float id="glow">0</float>
+			<colour id="ambient">0 0 0</colour>
+		</material>
+	</library_materials>
+	<library_geometries>
+		<geometry id="fontShape">
+			<mesh>
+				<filename>fontShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="hookShape">
+			<mesh>
+				<filename>hookShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="vegetation0Shape4">
+			<mesh>
+				<filename>vegetation0Shape4.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="lion_headShape">
+			<mesh>
+				<filename>lion_headShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="vaseShape">
+			<mesh>
+				<filename>vaseShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="vegetation0Shape7">
+			<mesh>
+				<filename>vegetation0Shape7.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="lion_mountShape">
+			<mesh>
+				<filename>lion_mountShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="spikeShape">
+			<mesh>
+				<filename>spikeShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="vegetation0Shape6">
+			<mesh>
+				<filename>vegetation0Shape6.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="atriumShape">
+			<mesh>
+				<filename>atriumShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="atrium_floorShape">
+			<mesh>
+				<filename>atrium_floorShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="drapeShape">
+			<mesh>
+				<filename>drapeShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="inner_roofShape">
+			<mesh>
+				<filename>inner_roofShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="poleShape">
+			<mesh>
+				<filename>poleShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="vegetation0Shape1">
+			<mesh>
+				<filename>vegetation0Shape1.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="vegetation0Shape9">
+			<mesh>
+				<filename>vegetation0Shape9.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="boxShape">
+			<mesh>
+				<filename>boxShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="outer_wallShape">
+			<mesh>
+				<filename>outer_wallShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="ropeShape">
+			<mesh>
+				<filename>ropeShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="vegetation0Shape8">
+			<mesh>
+				<filename>vegetation0Shape8.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="hangingShape">
+			<mesh>
+				<filename>hangingShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="vegetation0Shape3">
+			<mesh>
+				<filename>vegetation0Shape3.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="vegetation0Shape2">
+			<mesh>
+				<filename>vegetation0Shape2.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="vegetationShape10">
+			<mesh>
+				<filename>vegetationShape10.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="curtainShape">
+			<mesh>
+				<filename>curtainShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="outer_roofShape">
+			<mesh>
+				<filename>outer_roofShape.tmfb</filename>
+			</mesh>
+		</geometry>
+		<geometry id="vegetation0Shape5">
+			<mesh>
+				<filename>vegetation0Shape5.tmfb</filename>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_lights/>
+	<library_cameras>
+		<camera id="perspShape">
+			<fov>37.8443832</fov>
+			<aspect_ratio>1.5</aspect_ratio>
+			<znear>0.100000001</znear>
+			<zfar>1000</zfar>
+		</camera>
+	</library_cameras>
+	<library_graphs>
+		<graph id="root">
+			<node id="persp">
+				<translate>78.0397 66.7993 -59.3173</translate>
+				<rotate>179.038 56.5927 -179.977</rotate>
+				<scale>1 1 1</scale>
+				<instance_camera target="perspShape"/>
+			</node>
+			<node id="outer_wall">
+				<translate>0 0 0</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="outer_wallShape">
+					<instance_material symbol="base" target="brick_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="inner_roof">
+				<translate>0 0 0</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="inner_roofShape">
+					<instance_material symbol="base" target="roof_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="outer_roof">
+				<translate>0 0 0</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="outer_roofShape">
+					<instance_material symbol="base" target="roof_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="box">
+				<translate>0 0 0</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="boxShape">
+					<instance_material symbol="base" target="brick_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vase01">
+				<translate>83.3301 2.80297 -22.3549</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vaseShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="lion_mount01">
+				<translate>128.844 17.3572 -3.59192</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="lion_mountShape">
+					<instance_material symbol="base" target="lion_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="lion_head01">
+				<translate>126.154 17.2333 -3.66119</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="lion_headShape">
+					<instance_material symbol="base" target="lion_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="font01">
+				<translate>-120.22 6.61617 40.3786</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="fontShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="hanging01">
+				<translate>-61.9204 11.7931 14.3343</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="hangingShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="rope01">
+				<translate>-61.9177 17.4038 14.3342</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="ropeShape">
+					<instance_material symbol="base" target="rope_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="hook01">
+				<translate>-61.8984 21.2202 15.2859</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="hookShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="curtain01">
+				<translate>-6.12888 14.1573 20.1192</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="curtainShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="pole01">
+				<translate>-6.24588 28.4537 19.8785</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="poleShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="drape01">
+				<translate>-61.8828 43.0018 20.4725</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="drapeShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="spike01">
+				<translate>49.2869 85.7475 -17.5034</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="spikeShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vegetation01">
+				<translate>-61.4117 3.89036 17.8972</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vegetation0Shape1">
+					<instance_material symbol="base" target="leaf_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vegetation02">
+				<translate>-61.9237 17.3123 20.4038</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vegetation0Shape2">
+					<instance_material symbol="base" target="leaf_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vegetation03">
+				<translate>-62.0567 17.3123 -27.2048</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vegetation0Shape3">
+					<instance_material symbol="base" target="leaf_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vegetation04">
+				<translate>-24.7429 9.14469 20.7649</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vegetation0Shape4">
+					<instance_material symbol="base" target="leaf_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vegetation05">
+				<translate>-24.3919 15.3839 -27.4566</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vegetation0Shape5">
+					<instance_material symbol="base" target="leaf_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vegetation06">
+				<translate>11.7605 16.7513 -27.3829</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vegetation0Shape6">
+					<instance_material symbol="base" target="leaf_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vegetation07">
+				<translate>11.9072 16.7513 19.9163</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vegetation0Shape7">
+					<instance_material symbol="base" target="leaf_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vegetation08">
+				<translate>49.528 14.8157 19.8494</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vegetation0Shape8">
+					<instance_material symbol="base" target="leaf_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vegetation09">
+				<translate>49.0002 3.89036 -28.0417</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vegetation0Shape9">
+					<instance_material symbol="base" target="leaf_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vegetation10">
+				<translate>48.5772 17.3123 -27.7921</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vegetationShape10">
+					<instance_material symbol="base" target="leaf_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vase02">
+				<translate>83.3301 2.46908 15.3345</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vaseShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vase03">
+				<translate>11.875 2.41391 15.3345</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vaseShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vase04">
+				<translate>-24.5289 2.42673 15.2112</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vaseShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vase05">
+				<translate>-96.4744 2.42673 15.1217</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vaseShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vase06">
+				<translate>-96.4744 2.80297 -22.5678</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vaseShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vase07">
+				<translate>-24.5289 2.80297 -22.4782</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vaseShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="vase08">
+				<translate>11.875 2.80297 -22.3549</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="vaseShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="spike02">
+				<translate>12.1784 85.7475 -17.5034</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="spikeShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="spike03">
+				<translate>-24.7985 85.7475 -17.5034</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="spikeShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="spike04">
+				<translate>-61.8324 85.7475 -17.5034</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="spikeShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="spike05">
+				<translate>49.2869 85.7475 10.3594</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="spikeShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="spike06">
+				<translate>12.1784 85.7475 10.3594</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="spikeShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="spike07">
+				<translate>-24.7985 85.7475 10.3594</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="spikeShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="spike08">
+				<translate>-61.8324 85.7475 10.3594</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="spikeShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="drape02">
+				<translate>-25.0222 43.0018 20.4725</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="drapeShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="drape03">
+				<translate>11.8384 43.0018 20.4725</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="drapeShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="drape04">
+				<translate>48.699 43.0018 20.4725</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="drapeShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="drape05">
+				<translate>48.3886 43.0018 -27.6966</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="drapeShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="drape06">
+				<translate>11.528 43.0018 -27.6966</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="drapeShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="drape07">
+				<translate>-25.3327 43.0018 -27.6966</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="drapeShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="drape08">
+				<translate>-62.1933 43.0018 -27.6966</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="drapeShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="pole07">
+				<translate>-43.3947 28.4537 -27.9374</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="poleShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="pole08">
+				<translate>-6.24588 28.4537 -27.9374</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="poleShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="pole09">
+				<translate>30.7461 28.4537 -27.9374</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="poleShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="pole10">
+				<translate>67.5355 28.4537 -27.9374</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="poleShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="pole04">
+				<translate>-80.3759 28.4537 -27.9374</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="poleShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="pole02">
+				<translate>-43.3947 28.4537 19.8785</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="poleShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="pole03">
+				<translate>-80.3759 28.4537 19.8785</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="poleShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="pole05">
+				<translate>30.7461 28.4537 19.8785</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="poleShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="pole06">
+				<translate>67.5355 28.4537 19.8785</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="poleShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="curtain02">
+				<translate>-43.4099 14.1686 19.5558</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="curtainShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="curtain03">
+				<translate>-80.2589 14.1573 20.1192</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="curtainShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="curtain04">
+				<translate>-80.2589 14.1573 -27.6967</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="curtainShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="curtain05">
+				<translate>30.4512 14.1686 19.5558</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="curtainShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="curtain06">
+				<translate>67.6525 14.1573 20.1192</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="curtainShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="curtain07">
+				<translate>-43.4099 14.1686 -28.26</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="curtainShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="curtain08">
+				<translate>-6.12888 14.1573 -27.6967</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="curtainShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="curtain09">
+				<translate>30.4512 14.1686 -28.26</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="curtainShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="curtain10">
+				<translate>67.6525 14.1573 -27.6967</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="curtainShape">
+					<instance_material symbol="base" target="fabric_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="font02">
+				<translate>-120.22 6.61617 -44.9024</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="fontShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="font03">
+				<translate>111.969 6.61617 -44.9024</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="fontShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="font04">
+				<translate>111.969 6.61617 40.3786</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="fontShape">
+					<instance_material symbol="base" target="vase_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="rope02">
+				<translate>48.7659 17.4038 14.3342</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="ropeShape">
+					<instance_material symbol="base" target="rope_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="rope03">
+				<translate>48.7604 17.4038 -21.97</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="ropeShape">
+					<instance_material symbol="base" target="rope_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="rope04">
+				<translate>-61.9232 17.4038 -21.97</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="ropeShape">
+					<instance_material symbol="base" target="rope_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="hanging02">
+				<translate>48.7632 11.7931 14.3343</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="hangingShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="hanging03">
+				<translate>48.7632 11.7931 -21.9702</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="hangingShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="hanging04">
+				<translate>-61.9204 11.7931 -21.9702</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="hangingShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="lion_head02">
+				<translate>-138.995 17.2333 -3.52265</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="lion_headShape">
+					<instance_material symbol="base" target="lion_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="lion_mount02">
+				<translate>-141.685 17.3572 -3.59192</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="lion_mountShape">
+					<instance_material symbol="base" target="lion_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="lion_mount03">
+				<translate>-141.317 62.58 -3.88407</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="lion_mountShape">
+					<instance_material symbol="base" target="lion_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="hook02">
+				<translate>48.7852 21.2202 15.2859</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="hookShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="hook03">
+				<translate>48.7412 21.2202 -22.9218</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="hookShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="hook04">
+				<translate>-61.9424 21.2202 -22.9218</translate>
+				<rotate>0 179.977 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="hookShape">
+					<instance_material symbol="base" target="metal_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="atrium_floor">
+				<translate>0 0 0</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="atrium_floorShape">
+					<instance_material symbol="base" target="floor_mat"/>
+				</instance_geometry>
+			</node>
+			<node id="atrium">
+				<translate>0 0 0</translate>
+				<rotate>0 0 0</rotate>
+				<scale>1 1 1</scale>
+				<instance_geometry target="atriumShape">
+					<instance_material symbol="base" target="brick_mat"/>
+				</instance_geometry>
+			</node>
+		</graph>
+	</library_graphs>
+	<scene>
+		<instance_graph target="root"/>
+	</scene>
+</tsf>

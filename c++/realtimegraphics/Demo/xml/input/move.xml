@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actionmap>
+  <inputtype>all</inputtype>
+
+  <action>
+    <key ascii="">p</key>
+    <message>switch render</message>
+  </action>
+  <action>
+    <key ascii="">z</key>
+    <message>switch cam</message>
+  </action>
+
+  <action>
+    <key>left analog stick: up</key>
+    <message>move forward</message>
+  </action>
+  <action>
+    <key>left analog stick: down</key>
+    <message>move backward</message>
+  </action>
+  <action>
+    <key>left analog stick: left</key>
+    <message>move left</message>
+  </action>
+  <action>
+    <key>left analog stick: right</key>
+    <message>move right</message>
+  </action>
+  
+  <action>
+    <key ascii="">W</key>
+    <message>move forward</message>
+  </action>
+  <action>
+    <key ascii="">S</key>
+    <message>move backward</message>
+  </action>
+  <action>
+    <key ascii="">a</key>
+    <message>move left</message>
+  </action>
+  <action>
+    <key ascii="">d</key>
+    <message>move right</message>
+  </action>
+  
+  <action>
+    <key>up</key>
+    <message>turn up</message>
+  </action>
+  <action>
+    <key>down</key>
+    <message>turn down</message>
+  </action>
+  <action>
+    <key>left</key>
+    <message>turn left</message>
+  </action>
+  <action>
+    <key>right</key>
+    <message>turn right</message>
+  </action>
+  
+  <action>
+    <key>right analog stick: up</key>
+    <message>turn up</message>
+  </action>
+  <action>
+    <key>right analog stick: down</key>
+    <message>turn down</message>
+  </action>
+  <action>
+    <key>right analog stick: left</key>
+    <message>turn left</message>
+  </action>
+  <action>
+    <key>right analog stick: right</key>
+    <message>turn right</message>
+  </action>
+  
+  <action>
+    <key>start</key>
+    <message>quit</message>
+  </action>
+  <action>
+    <key>escape</key>
+    <message>quit</message>
+  </action>
+
+</actionmap>
